@@ -1,0 +1,9 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+mongodb:
+  connectionString: 'mongodb://localhost:27017/reading-is-good'
+  databaseName: reading-is-good
+server:
+  port: 8080

@@ -1,0 +1,7 @@
+spring:
+  config:
+    activate:
+      on-profile: container
+mongodb:
+  connectionString: 'mongodb://mongodb:27017/reading-is-good'
+  databaseName: reading-is-good
